@@ -3,6 +3,7 @@ import styles from "../../styles/OrderTable.module.css";
 import swr from "swr";
 import Link from "next/link";
 export default function OrderTable() {
+  // FETCHING ORDERS
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data: orders, error: ordersErr } = swr(
     process.env.NEXT_PUBLIC_API + "/api/orders",
