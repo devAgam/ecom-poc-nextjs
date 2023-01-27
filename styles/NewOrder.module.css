@@ -1,0 +1,88 @@
+.newOrder {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.newOrder h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.newOrder p {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+
+.productList {
+  margin-top: 20px;
+}
+.productList .productWrapper {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  gap: 20px;
+}
+.productWrapper p:nth-child(1) {
+  font-weight: bold;
+  font-size: 1em;
+  color: green;
+}
+.productWrapper p:nth-child(2) {
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 1em;
+  color: #000;
+}
+
+.newOrder input[type="text"] {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.formBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+.formBottom button:nth-child(1) {
+  background-color: rgb(235, 184, 184);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  color: #000;
+  cursor: pointer;
+  flex: 1;
+}
+
+.formBottom button:nth-child(2) {
+  flex: 1;
+  background-color: rgb(252, 255, 252);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1em;
+  color: #000;
+  cursor: pointer;
+}
